@@ -1,0 +1,216 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACCOUNTSIZE	common/struct.h	10;"	d
+BUFSIZE	common/struct.h	12;"	d
+CC	Makefile	/^CC = gcc$/;"	m
+CLIENT_H	client.h	9;"	d
+COMMON_H_	common/common.h	9;"	d
+C_FLAGS	Makefile	/^C_FLAGS = -c.$/;"	m
+C_OBJECTS	Makefile	/^C_OBJECTS = $(patsubst %.c, %.o, $(C_SOURCES))$/;"	m
+C_SOURCES	Makefile	/^C_SOURCES = $(shell find . -name "*.c")$/;"	m
+DateNow	common/common.c	/^user_date_t DateNow() {$/;"	f
+FRIENDSIZE	common/struct.h	11;"	d
+GROUPCOUNT	common/struct.h	14;"	d
+GROUPSIZE	common/struct.h	13;"	d
+INVALID_USERINFO	common/struct.h	16;"	d
+LD	Makefile	/^LD = ld$/;"	m
+LEAVE_MESSAGE_IN	client.h	/^    LEAVE_MESSAGE_IN = 1,$/;"	e	enum:__anon14
+LEAVE_MESSAGE_NO	client.h	/^    LEAVE_MESSAGE_NO = 2$/;"	e	enum:__anon14
+LISTENQ	common/struct.h	70;"	d
+LOADOVER	common/struct.h	63;"	d
+LOADSTART	common/struct.h	62;"	d
+LOADWRONG	common/struct.h	64;"	d
+PROGRAM	Makefile	/^PROGRAM = Client$/;"	m
+SERV_PORT	common/struct.h	71;"	d
+Str2Upper	common/common.c	/^char *Str2Upper(char *str) {$/;"	f
+TimeNow	common/common.c	/^user_time_t TimeNow(){$/;"	f
+USER_FEMALE	client.h	/^    USER_FEMALE = 1,$/;"	e	enum:__anon13
+USER_FILE	account_per.c	10;"	d	file:
+USER_MAN	client.h	/^    USER_MAN = 2$/;"	e	enum:__anon13
+VALID_USERINFO	common/struct.h	17;"	d
+_CHATGRO	common/struct.h	57;"	d
+_CHATONE	common/struct.h	58;"	d
+_DOWNLOAD	common/struct.h	67;"	d
+_FRIENDASK	common/struct.h	35;"	d
+_FRIENDDEL	common/struct.h	37;"	d
+_FRIENDFIND	common/struct.h	34;"	d
+_FRIENDLIST	common/struct.h	33;"	d
+_FRIENDSEND	common/struct.h	36;"	d
+_GROUPDEL	common/struct.h	44;"	d
+_GROUPDISMISS	common/struct.h	45;"	d
+_GROUPFIND	common/struct.h	41;"	d
+_GROUPLIST	common/struct.h	40;"	d
+_GROUPOWN	common/struct.h	42;"	d
+_GROUPSALL	common/struct.h	46;"	d
+_GROUPSEND	common/struct.h	43;"	d
+_INPUTFRIEND	common/struct.h	54;"	d
+_INPUTGROUP	common/struct.h	55;"	d
+_INPUTNAME	common/struct.h	51;"	d
+_INPUTPASSWD	common/struct.h	52;"	d
+_INPUTSEX	common/struct.h	53;"	d
+_LEAVEMES	common/struct.h	28;"	d
+_LEAVEMESS	common/struct.h	59;"	d
+_LOADERR	common/struct.h	68;"	d
+_MESSTIP	common/struct.h	60;"	d
+_NOMESSAGE	common/struct.h	29;"	d
+_OFFLINE	common/struct.h	31;"	d
+_ONLINE	common/struct.h	30;"	d
+_RECALL	common/struct.h	48;"	d
+_SYSTEMTIP	common/struct.h	49;"	d
+_UPLOAD	common/struct.h	66;"	d
+_USERADD	common/struct.h	22;"	d
+_USERCHA	common/struct.h	23;"	d
+_USERDEL	common/struct.h	24;"	d
+_USEROFFL	common/struct.h	26;"	d
+_USERONL	common/struct.h	25;"	d
+_USERSALL	common/struct.h	38;"	d
+account_ui_delete	account_u.c	/^void account_ui_delete(int conn_fd,char *username){$/;"	f
+account_ui_init	account_u.c	/^void account_ui_init(int conn_fd,char *username){$/;"	f
+account_ui_logoff	account_u.c	/^void account_ui_logoff(int conn_fd,char *username){$/;"	f
+account_ui_update	account_u.c	/^void account_ui_update(int conn_fd, char *username){$/;"	f
+buf	common/struct.h	/^    char buf[BUFSIZE];$/;"	m	struct:__anon10
+buf	common/struct.h	/^    char buf[BUFSIZE];$/;"	m	struct:__anon12
+chat_friend_add	chat.c	/^int chat_friend_add(send_t *precv){$/;"	f
+chat_friend_del	chat.c	/^int chat_friend_del(send_t *precv){$/;"	f
+chat_friend_show	chat.c	/^int chat_friend_show(send_t * precv){$/;"	f
+chat_group_add	chat.c	/^int chat_group_add(send_t *precv){$/;"	f
+chat_group_show	chat.c	/^int chat_group_show(send_t *precv){$/;"	f
+chat_user_init	chat.c	/^int chat_user_init(int conn_fd, char*username)$/;"	f
+check_answer	common/struct.h	/^    char check_answer;$/;"	m	struct:__anon12
+cl_stdin	common/common.c	/^void cl_stdin(){$/;"	f
+client	client.c	/^void client(send_t * precv){$/;"	f
+command_type	common/struct.h	/^    int command_type;$/;"	m	struct:__anon12
+conn_fd	common/struct.h	/^    int conn_fd;$/;"	m	struct:__anon11
+conn_fd	common/struct.h	/^    int conn_fd;$/;"	m	struct:__anon12
+conn_fd	common/struct.h	/^    int conn_fd;$/;"	m	struct:__anon7
+count	common/struct.h	/^    int count;$/;"	m	struct:__anon6
+creat_userdir	account_per.c	/^int creat_userdir(const char *username){$/;"	f
+data	common/struct.h	/^    user_date_t data;$/;"	m	struct:__anon12
+date	common/struct.h	/^    user_date_t date;$/;"	m	struct:__anon5
+date	common/struct.h	/^    user_date_t date;$/;"	m	struct:__anon8
+day	common/struct.h	/^    int day;$/;"	m	struct:__anon3
+download_file	file.c	/^int download_file(send_t *precv){$/;"	f
+file	common/struct.h	/^    fileinfo_t file;$/;"	m	struct:__anon12
+file_len	common/common.c	/^int file_len(int fd){$/;"	f
+file_read	common/common.c	/^int file_read(int fd,int len,void* buf){$/;"	f
+file_t	common/struct.h	/^}file_t;$/;"	t	typeref:struct:__anon10
+file_ui_init	file.c	/^int file_ui_init(int conn_fd, char* username)$/;"	f
+file_write	common/common.c	/^int file_write(int fd, const void * buf, int len){$/;"	f
+fileinfo_message_t	common/struct.h	/^}fileinfo_message_t;$/;"	t	typeref:struct:__anon6
+fileinfo_t	common/struct.h	/^}fileinfo_t;$/;"	t	typeref:struct:__anon9
+filelen	common/struct.h	/^	int filelen;$/;"	m	struct:__anon9
+filelen	common/struct.h	/^    int filelen;$/;"	m	struct:__anon10
+filename	common/struct.h	/^    char filename[32];$/;"	m	struct:__anon6
+filepath	common/struct.h	/^    char filepath[32];$/;"	m	struct:__anon10
+filepath	common/struct.h	/^    char filepath[BUFSIZE];$/;"	m	struct:__anon6
+flag_leave	client.h	/^    userinfo_leavemes_t flag_leave;$/;"	m	struct:__anon15
+flag_recv	common/struct.h	/^    int flag_recv;$/;"	m	struct:__anon7
+friend_chat_add	chat.c	/^int friend_chat_add(int conn_fd, char *username){$/;"	f
+friend_chat_ask	chat.c	/^int friend_chat_ask(send_t* precv){$/;"	f
+friend_chat_one	chat.c	/^int friend_chat_one(int conn_fd, char *username){$/;"	f
+friend_chat_send	chat.c	/^int friend_chat_send(int conn_fd, char *username){$/;"	f
+friend_chat_show	chat.c	/^int friend_chat_show(int conn_fd, char* username){$/;"	f
+friend_find_add	chat.c	/^int friend_find_add(send_t *precv){$/;"	f
+friend_info_t	common/struct.h	/^}friend_info_t;$/;"	t	typeref:struct:__anon1
+friendinfo	common/struct.h	/^    friend_info_t friendinfo;$/;"	m	struct:__anon12
+friendslist	common/struct.h	/^    int friendslist[FRIENDSIZE];$/;"	m	struct:__anon11
+from_name	common/struct.h	/^    char from_name[32];$/;"	m	struct:__anon5
+getch	common/common.c	/^int getch(void){$/;"	f
+getpwd	common/common.c	/^void getpwd(int maxlen, char *pwd){$/;"	f
+givelen	common/struct.h	/^	int givelen;$/;"	m	struct:__anon9
+givelen	common/struct.h	/^    int givelen;$/;"	m	struct:__anon10
+group_chat_add	chat.c	/^int group_chat_add(int conn_fd, char *username){$/;"	f
+group_chat_show	chat.c	/^int group_chat_show(int conn_fd, char* username){$/;"	f
+group_find_add	chat.c	/^int group_find_add(send_t *precv){$/;"	f
+group_info	common/struct.h	/^    group_info_t group_info;$/;"	m	struct:__anon12
+group_info_t	common/struct.h	/^}group_info_t;$/;"	t	typeref:struct:__anon2
+groupid	common/struct.h	/^    int groupid;$/;"	m	struct:__anon2
+grouplist	common/struct.h	/^    int grouplist[GROUPCOUNT];$/;"	m	struct:__anon11
+groupname	common/struct.h	/^    char groupname[32];$/;"	m	struct:__anon2
+h_username	client.c	/^char h_username[32];$/;"	v
+hour	common/struct.h	/^    int hour;$/;"	m	struct:__anon4
+id	client.h	/^    char id[5];$/;"	m	struct:__anon15
+input_check	common/common.c	/^int input_check(int input_len, char * input_buf){$/;"	f
+input_check	common/struct.h	/^    int input_check;$/;"	m	struct:__anon12
+l_getc	common/common.c	/^char l_getc(){$/;"	f
+leavemes_flag	common/struct.h	/^    char leavemes_flag;$/;"	m	struct:__anon11
+leftlen	common/struct.h	/^	int leftlen;$/;"	m	struct:__anon9
+leftlen	common/struct.h	/^    int leftlen;$/;"	m	struct:__anon10
+lenth	common/struct.h	/^    int lenth;$/;"	m	struct:__anon6
+main	client.c	/^int main(){$/;"	f
+markname	common/struct.h	/^	char markname[32];$/;"	m	struct:__anon9
+markname	common/struct.h	/^    char markname[32];$/;"	m	struct:__anon10
+member	common/struct.h	/^    friend_info_t member[GROUPSIZE];$/;"	m	struct:__anon2
+message	common/struct.h	/^    message_t message;$/;"	m	struct:__anon12
+message_box	chat.c	/^int message_box(int conn_fd, char* username, int type){$/;"	f
+message_buf	common/struct.h	/^    char message_buf[BUFSIZE-36];$/;"	m	struct:__anon5
+message_init	chat.c	/^int message_init(int conn_fd, char *username){$/;"	f
+message_p_all	chat.c	/^int message_p_all(message_t *box, int type){$/;"	f
+message_p_insert	chat.c	/^int message_p_insert(message_t * mes){$/;"	f
+message_p_selet	chat.c	/^int message_p_selet(int type, message_t * mes){$/;"	f
+message_t	common/struct.h	/^}message_t;$/;"	t	typeref:struct:__anon5
+message_tips	chat.c	/^int message_tips(send_t *precv){$/;"	f
+messageinfo	common/struct.h	/^    fileinfo_message_t messageinfo;$/;"	m	struct:__anon12
+minute	common/struct.h	/^    int minute;$/;"	m	struct:__anon4
+month	common/struct.h	/^    int month;$/;"	m	struct:__anon3
+my_err	common/common.c	/^void my_err(const char* err_string, int line){$/;"	f
+offtime	common/struct.h	/^    user_logtime_t offtime;$/;"	m	struct:__anon11
+ontime	common/struct.h	/^    user_logtime_t ontime;$/;"	m	struct:__anon11
+owner	common/struct.h	/^    char owner[32];$/;"	m	struct:__anon2
+print	client.c	/^int print(){$/;"	f
+recv_data	common/common.c	/^int recv_data(int conn_fd, send_t *precv){$/;"	f
+register_ui	client.c	/^int register_ui(int conn_fd){$/;"	f
+second	common/struct.h	/^    int second;$/;"	m	struct:__anon4
+send_data	common/common.c	/^int send_data(int conn_fd, send_t * psend){$/;"	f
+send_name	common/struct.h	/^    char send_name[32];$/;"	m	struct:__anon5
+send_t	common/struct.h	/^}send_t;$/;"	t	typeref:struct:__anon12
+sendlen	common/struct.h	/^	int sendlen;$/;"	m	struct:__anon9
+sendlen	common/struct.h	/^    int sendlen;$/;"	m	struct:__anon10
+sendtimes	common/struct.h	/^    int sendtimes;$/;"	m	struct:__anon10
+ser_atoi	common/common.c	/^int ser_atoi(char * buf){     \/\/atoi$/;"	f
+sex	client.h	/^    userinfo_sex_t sex;$/;"	m	struct:__anon15
+signin_ui	client.c	/^int signin_ui(int conn_fd){$/;"	f
+size	common/struct.h	/^    int size;$/;"	m	struct:__anon2
+status	common/struct.h	/^    char status;$/;"	m	struct:__anon1
+status	common/struct.h	/^    char status;$/;"	m	struct:__anon11
+thread_fun	client.c	/^int * thread_fun(int conn_fd){$/;"	f
+thread_t	common/struct.h	/^}thread_t;$/;"	t	typeref:struct:__anon7
+time	common/struct.h	/^    user_time_t time;$/;"	m	struct:__anon12
+time	common/struct.h	/^    user_time_t time;$/;"	m	struct:__anon5
+time	common/struct.h	/^    user_time_t time;$/;"	m	struct:__anon8
+upload_file	file.c	/^int upload_file(int conn_fd, char* username){$/;"	f
+user_chat_one	chat.c	/^int user_chat_one(send_t *precv){$/;"	f
+user_date_t	common/struct.h	/^}user_date_t;$/;"	t	typeref:struct:__anon3
+user_init_	client.c	/^int user_init_(int conn_fd){$/;"	f
+user_logtime_t	common/struct.h	/^}user_logtime_t;$/;"	t	typeref:struct:__anon8
+user_time_t	common/struct.h	/^}user_time_t;$/;"	t	typeref:struct:__anon4
+userid	common/struct.h	/^    int userid;$/;"	m	struct:__anon11
+userinfo	common/struct.h	/^    userinfo_service_t userinfo;$/;"	m	struct:__anon12
+userinfo_leavemes_t	client.h	/^}userinfo_leavemes_t;$/;"	t	typeref:enum:__anon14
+userinfo_p_checkfile	account_per.c	/^int userinfo_p_checkfile(const char *username){$/;"	f
+userinfo_p_delet	account_per.c	/^int userinfo_p_delet(const char * username){$/;"	f
+userinfo_p_insert	account_per.c	/^int userinfo_p_insert(const userinfo_t * data){$/;"	f
+userinfo_p_seletid	account_per.c	/^int userinfo_p_seletid(int userid, userinfo_t * data){$/;"	f
+userinfo_p_seletname	account_per.c	/^int userinfo_p_seletname(const char* username, userinfo_t * data){$/;"	f
+userinfo_s_add	account_ser.c	/^int userinfo_s_add(userinfo_t *data){$/;"	f
+userinfo_s_delet	account_ser.c	/^int userinfo_s_delet(const char *username)$/;"	f
+userinfo_s_login	account_ser.c	/^int userinfo_s_login(const char *username){$/;"	f
+userinfo_s_select	account_ser.c	/^int userinfo_s_select(const char *username, userinfo_t *data)$/;"	f
+userinfo_s_updata	account_ser.c	/^int userinfo_s_updata(userinfo_t *data, const char* username)$/;"	f
+userinfo_service_t	common/struct.h	/^}userinfo_service_t;$/;"	t	typeref:struct:__anon11
+userinfo_sex_t	client.h	/^}userinfo_sex_t;$/;"	t	typeref:enum:__anon13
+userinfo_t	client.h	/^}userinfo_t;$/;"	t	typeref:struct:__anon15
+userinfo_ui_init	account_u.c	/^void userinfo_ui_init(int conn_fd, char *username){$/;"	f
+username	client.h	/^    char username[32];$/;"	m	struct:__anon15
+username	common/struct.h	/^    char username[32];$/;"	m	struct:__anon1
+username	common/struct.h	/^    char username[32];$/;"	m	struct:__anon11
+userpasswd	client.h	/^    char userpasswd[32];$/;"	m	struct:__anon15
+userpasswd	common/struct.h	/^    char userpasswd[32];$/;"	m	struct:__anon11
+usersex	common/struct.h	/^    char usersex[10];$/;"	m	struct:__anon1
+usersex	common/struct.h	/^    char usersex[10];$/;"	m	struct:__anon11
+userstatus	common/struct.h	/^    char userstatus;$/;"	m	struct:__anon12
+year	common/struct.h	/^    int year;$/;"	m	struct:__anon3
