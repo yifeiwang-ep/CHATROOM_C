@@ -2,9 +2,9 @@
 
 实现Linux环境下的简单聊天室，基于c/s （客户端client/服务端server）模型，实现不同客户端之间通信。
 
-Author | Sequin小红九
- -| :-: | -:
- Email | SequinYF@xiyoulinux.org
+|Author | Sequin小红九|
+| -| :-: | -:|
+| Email | SequinYF@xiyoulinux.org|
 
 ## 开发环境
 
@@ -32,6 +32,6 @@ $ make
 5. 消息提醒（好友上线、消息）
 
 ### 拓展技术
-1. 使用多路复用技术（select）
-2. 文件的传输、离线消息
-3. 数据加密（密码、消息）
+- 使用多路复用技术（select）
+- 文件的传输、离线消息
+- 数据加密（密码、消息）
