@@ -2,16 +2,9 @@
 
 实现Linux环境下的简单聊天室，基于c/s （客户端client/服务端server）模型，实现不同客户端之间通信。
 
-
-|Author|Sequin小红九|
-|----|
-|Email|SequinYF@xiyoulinux.org
-
-|我在这里|
-|---|
-|[CSDN][csdn]
-|[知 乎][zhihu]
-|[微 博][weibo]
+| Author | Sequin小红九|
+| ---------- | -----------|
+| Email   | SequinYF@xiyoulinux.org   |
 
 ## 开发环境
 
