@@ -5,14 +5,16 @@
 | Author | Sequin小红九|
 | ---------- | -----------|
 | Email   | SequinYF@xiyoulinux.org   |
+|[![csdn-logo]][csdn]|http://blog.csdn.net/sequin_yf|
+
 
 ## 开发环境
 
 Linux开发环境，所有的API基于LinuxC（所有操作尽量使用LinuxC系统调用）
 
- |编译器|gcc|
- |---|
- |编辑器|Vim
+| 编译器 | gcc|
+| ---------- | -----------|
+| 编辑器   | Vim  |
 
 ## 安装说明
 
