@@ -2,9 +2,10 @@
 
 实现Linux环境下的简单聊天室，基于c/s （客户端client/服务端server）模型，实现不同客户端之间通信。
 
+
 |Author|Sequin小红九|
-|-|:-:|-:|
-|Email|SequinYF@xiyoulinux.org|
+|----|
+|Email|SequinYF@xiyoulinux.org
 
 |我在这里|
 |---|
@@ -17,8 +18,8 @@
 Linux开发环境，所有的API基于LinuxC（所有操作尽量使用LinuxC系统调用）
 
  |编译器|gcc|
- |-|-|-|
- |编辑器|Vim|
+ |---|
+ |编辑器|Vim
 
 ## 安装说明
 
