@@ -3,7 +3,7 @@
 实现Linux环境下的简单聊天室，基于c/s （客户端client/服务端server）模型，实现不同客户端之间通信。
 
 | Author | Sequin小红九|
-| ---------- | -----------|
+| :----------: | -----------|
 | Email   | SequinYF@xiyoulinux.org   |
 |[![csdn-logo]][csdn]|http://blog.csdn.net/sequin_yf|
 
